@@ -1,13 +1,24 @@
 # HTML Basics for Web Scraping with Python
+-HTML stands for Hyper Text Markup Language and it is one of the basic tools used to make website , it defines the meaning and structure of web content. 
+-**HTML Markup syntex review**
+`<h1 class="title">Titanic (1997)</h1>`
+    the first element (<h1>) is a **tag**, they are hidden keywords within a webpage that defines how web browser must format and display  the content . Most tags must have two parts - an opening and a closing part .
 
+    the second element (class="title")  we see is a tag attribute .They allow us to cusomize attack and  are defined within the opeing tag. attribute are often assigned a value using the  equal sign . the attribute value in this example is title
+
+    and lastly we have the affected content which is what we usually see in the website .
+
+    and all of these is know as an html element or node.
 ## 1. HTML Document Structure
 - **DOCTYPE**: Declares HTML version (`<!DOCTYPE html>`)
 - **html**: Root element
 - **head**: Contains metadata, title, links
 - **body**: Contains visible page content
 
-## 2. Common HTML Tags
-
+## 2. Common HTML Tags for web scrapping
+-`<>head` : this reperesent the head section and it is used mostly for  metadata
+`<body>` : This establishes the body of an HTML document 
+`<header>` : typically contains the introductory content and layout that goes above the body 
 ### Text Elements
 - `<h1>` to `<h6>`: Headings (h1 largest, h6 smallest)
 - `<p>`: Paragraph
